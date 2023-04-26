@@ -1,7 +1,7 @@
 import React from 'react';
 
 const UserPost = ({post}) => {
-    const {id, title, body, userId} = post;
+    const {id, title, body, userId} = post
     return (
         <div>
             <div>id: {id}</div>

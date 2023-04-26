@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Launch = ({launch}) => {
-    const {flight_number, mission_name, launch_year} = launch;
+    const {flight_number, mission_name, launch_year} = launch
 
     return (
         <div>

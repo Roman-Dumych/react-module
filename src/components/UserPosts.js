@@ -3,7 +3,7 @@ import axios from "axios";
 import UserPost from "./UserPost";
 
 const UserPosts = ({userId}) => {
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState([])
 
     useEffect(() => {
         axios(`https://jsonplaceholder.typicode.com/users/${userId}/posts`).then(value => value.data).then(value => setPosts(value))

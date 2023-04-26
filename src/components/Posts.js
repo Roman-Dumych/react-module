@@ -4,7 +4,7 @@ import Post from "./Post";
 
 const Posts = () => {
     const [posts, setPosts] = useState([]);
-    const [post, setPost] = useState(null);
+    const [post, setPost] = useState(null)
 
     useEffect(() => {
         axios('https://jsonplaceholder.typicode.com/posts').then(value => value.data).then(value => setPosts(value))

@@ -3,7 +3,7 @@ import axios from "axios";
 import User from "./User";
 
 const Users = ({setUserId}) => {
-    const [users, setUsers] = useState([]);
+    const [users, setUsers] = useState([])
     useEffect(() => {
         axios('https://api.spacexdata.com/users').then(value => value.data).then(value => setUsers(value))
     }, [])

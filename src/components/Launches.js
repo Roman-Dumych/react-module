@@ -3,7 +3,7 @@ import axios from "axios";
 import Launch from "./Launch";
 
 const Launches = () => {
-    const [launches, setLaunches] = useState([]);
+    const [launches, setLaunches] = useState([])
 
     useEffect(() => {
         axios('https://api.spacexdata.com/v3/launches/').then(value => value.data).then(value => {

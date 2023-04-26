@@ -1,7 +1,7 @@
 import React from 'react';
 
 const User = ({user,setUserId}) => {
-    const {id,name,username,email} = user;
+    const {id,name,username,email} = user
     
     return (
         <div>

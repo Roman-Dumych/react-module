@@ -6,7 +6,7 @@ import UserPosts from "./components/UserPosts";
 
 
 const App = () => {
-    const [userId, setUserId] = useState(null);
+    const [userId, setUserId] = useState(null)
     return (
         <div>
             {/*<Posts/>*/}
